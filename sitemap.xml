@@ -18,19 +18,16 @@
   </url>
   
   <url>
-    <loc>https://noa-codes.github.io/categories/</loc>
-    <priority>0</priority>
+    <loc>https://noa-codes.github.io/</loc>
+    <lastmod>2017-10-15T03:29:08-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://noa-codes.github.io/</loc>
-    <lastmod>2017-10-15T03:29:08-07:00</lastmod>
-    <priority>0</priority>
+    <loc>https://noa-codes.github.io/categories/</loc>
   </url>
   
   <url>
     <loc>https://noa-codes.github.io/tags/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>
