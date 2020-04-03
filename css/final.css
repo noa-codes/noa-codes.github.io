@@ -36,6 +36,7 @@ footer {
 }
 
 .main-navigation {
+  font-size: 15pt;
   z-index: 999;
   width: 100%;
   background: white;
@@ -115,12 +116,15 @@ footer {
 }
 
 .logo:hover, .main-navigation-link:hover {
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12);
+/*  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12);*/
 }
 
 .logo {
-  width: 68px;
+  width: 200px;
+  padding-left: 20px;
   display: block;
+  color: #5A54AF;
+  font: Robota;
 }
 
 section {
@@ -300,10 +304,10 @@ section {
       flex-wrap: wrap;
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
-          align-items: stretch;
+          align-items: start;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-content: space-evenly;
 }
 
 .case-study-item {
@@ -340,7 +344,7 @@ section {
   border: solid 2px #E1E1E1;
   padding: 18px 0;
   text-align: center;
-  color: #574CDD;
+  color: #574CDDf;
   font-weight: 500;
   -webkit-transition: 0.2s ease-out;
   transition: 0.2s ease-out;
