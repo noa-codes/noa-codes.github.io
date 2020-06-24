@@ -6,7 +6,6 @@
     <description>Recent content on Noa Bendit-Shtull</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Oct 2017 03:29:08 -0700</lastBuildDate>
     
 	<atom:link href="https://noa-codes.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -27,6 +26,16 @@
       
       <guid>https://noa-codes.github.io/nlp/</guid>
       <description>Study Overview In the basic RNN, the vanishing gradient problem limits a language model&amp;rsquo;s memory; a range of models, such as LSTM and GRU, have been developed to reduce this friction. In order to preserve long-term memory, these models must determine which information to store from previous hidden states. This introduces a related problem–if the model chooses the wrong information to carry in its long-term memory, it may be difficult to recover.</description>
+    </item>
+    
+    <item>
+      <title>Video Action Recognition</title>
+      <link>https://noa-codes.github.io/dance/</link>
+      <pubDate>Sun, 15 Oct 2017 03:29:08 -0700</pubDate>
+      
+      <guid>https://noa-codes.github.io/dance/</guid>
+      <description>Study Overview Identifying highly dynamic actions from video is a complicated task in visual recognition, with applications ranging from automatic video tagging to collision avoidance systems. Humans display almost full range of motion through dance, so identifying dance styles is an excellent case study for testing human motion identification methods.
+Our project is an action recognition task which seeks to classify video clips as one of ten types of dance: ballet, break dancing, flamenco, foxtrot, latin, quickstep, square, swing, tango, or waltz.</description>
     </item>
     
   </channel>

@@ -336,6 +336,7 @@ section {
   color: #777777;
   letter-spacing: 0;
   line-height: 1.8em;
+  height: 140px;
 }
 
 .read-more {
@@ -506,6 +507,8 @@ section {
 .content-case-study img {
   max-width: 100%;
   margin-top: 20px;
+  display: block;
+  margin: auto;
 }
 
 .content-case-study a {
