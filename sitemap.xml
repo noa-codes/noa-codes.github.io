@@ -1,32 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://noa-codes.github.io/argviz/</loc>
     <lastmod>2017-10-15T03:29:08-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://noa-codes.github.io/nlp/</loc>
     <lastmod>2017-10-15T03:29:08-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://noa-codes.github.io/dance/</loc>
     <lastmod>2017-10-15T03:29:08-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://noa-codes.github.io/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://noa-codes.github.io/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://noa-codes.github.io/tags/</loc>
   </url>
-  
 </urlset>

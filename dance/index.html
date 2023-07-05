@@ -109,7 +109,7 @@
 <p>One hypothesis for the TCN&rsquo;s subpar performance is that it is not expressive enough to capture differences in movement between the dances; the LSTM models involve far more parameters per layer than the TCN. Perhaps if we had increased the complexity of the TCN by adding hidden layers, reducing the regularization, etc. its performance would have improved.</p>
 <h1 id="discussion">Discussion</h1>
 <p>Surprisingly, the plain LSTM model out-performed both the LSTM with attention and the TCN model. We had expected that attention would help direct the focus to key frames, and that the TCN would alleviate potential problems with vanishing gradients. However, given that the LSTM performed best with only 5 frames from a 10-second video clip, vanishing gradients were not problematic.</p>
-<p>For this project, we chose not to use optical flow to encode the temporal dimension in order to determine how much a sequential model could capture on its own. However, we realized that optical flow is an important driver in the success of action recognition on highly dynamic motion. Given more time, we would set up a pipeline to process the videos' optical flow data and expand our models to be three-stream.</p>
+<p>For this project, we chose not to use optical flow to encode the temporal dimension in order to determine how much a sequential model could capture on its own. However, we realized that optical flow is an important driver in the success of action recognition on highly dynamic motion. Given more time, we would set up a pipeline to process the videos&rsquo; optical flow data and expand our models to be three-stream.</p>
 <p>Ultimately, one of the biggest constraints was the limited data set. Since there were only around 1,000 videos in total, the validation set and test set each only contained 100 observations. Castro \etal circumvented this problem by processing videos in 16-frame chunks, but we opted to use each video clip as a single input to our sequential models. Therefore, an important direction for future work is to use data augmentation to increase the data set size. Future work could also accommodate this smaller dataset by exploring alternative regularization strategies,such as normalization layers for the LSTM models.</p>
 
         </div>
@@ -154,27 +154,27 @@
             
             
             <div class="case-study-item">
-                <a href="/argviz/"><img src="https://noa-codes.github.io/img/propensity.png" alt=""></a>
+                <a href="https://noa-codes.github.io/argviz/"><img src="https://noa-codes.github.io/img/propensity.png" alt=""></a>
                 <h4>Argument Visualization</h4>
                 <h5>Causal Inference</h5>
                 <p>My team conducted a reanalysis of the data from a published study using causal inference techniques to account for the lack of randomization in the experimental design.</p>
-                <a href="/argviz/" class="read-more">Read More</a>
+                <a href="https://noa-codes.github.io/argviz/" class="read-more">Read More</a>
             </div>
             
             <div class="case-study-item">
-                <a href="/nlp/"><img src="https://noa-codes.github.io/img/architecture_mini.png" alt=""></a>
+                <a href="https://noa-codes.github.io/nlp/"><img src="https://noa-codes.github.io/img/architecture_mini.png" alt=""></a>
                 <h4>Second Order LSTMs</h4>
                 <h5>Natural Language Processing</h5>
                 <p>We test the hypothesis that second-order LSTM architectures have the improved ability (relative to a simple LSTM) to learn long distance dependencies within an input.</p>
-                <a href="/nlp/" class="read-more">Read More</a>
+                <a href="https://noa-codes.github.io/nlp/" class="read-more">Read More</a>
             </div>
             
             <div class="case-study-item">
-                <a href="/dance/"><img src="https://noa-codes.github.io/img/pose.png" alt=""></a>
+                <a href="https://noa-codes.github.io/dance/"><img src="https://noa-codes.github.io/img/pose.png" alt=""></a>
                 <h4>Dance Classification</h4>
                 <h5>Video Action Recognition</h5>
                 <p>We assess the ability of sequential neural networks to capture dynamic movement and predict dance styles from video.</p>
-                <a href="/dance/" class="read-more">Read More</a>
+                <a href="https://noa-codes.github.io/dance/" class="read-more">Read More</a>
             </div>
             
         </div>
@@ -259,7 +259,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 <script src="https://noa-codes.github.io/js/jquery-1.js"></script>
 <script src="https://noa-codes.github.io/js/stickUp.js"></script>
 <script src="https://noa-codes.github.io/js/scrollIt.js" type="text/javascript"></script>
